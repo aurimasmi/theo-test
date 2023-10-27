@@ -1,0 +1,40 @@
+{
+    "platforms": {},
+    "plugins": {},
+    "extendsTemplate": "@rnv/template-starter/renative.json",
+    "projectName": "theotest",
+    "workspaceID": "rnv",
+    "defaults": {
+        "title": "Theo Test",
+        "id": "com.mycompany.theotest",
+        "supportedPlatforms": [
+            "ios",
+            "android",
+            "androidtv",
+            "firetv",
+            "androidwear",
+            "web",
+            "webtv",
+            "tizen",
+            "tvos",
+            "webos",
+            "macos",
+            "windows",
+            "tizenwatch",
+            "tizenmobile",
+            "kaios",
+            "firefoxos",
+            "firefoxtv",
+            "chromecast"
+        ]
+    },
+    "engines": {},
+    "templates": {
+        "@rnv/template-starter": {
+            "version": "0.37.3"
+        }
+    },
+    "currentTemplate": "@rnv/template-starter",
+    "isNew": true,
+    "isMonorepo": false
+}
