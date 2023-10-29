@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { PlayerConfiguration, THEOplayer, THEOplayerView } from 'react-native-theoplayer';
 
-export default ({ style, source }) => {
+export default () => {
     const [isVisible, setIsVisible] = React.useState(true);
 
     React.useEffect(() => {
