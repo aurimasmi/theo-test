@@ -1,6 +1,40 @@
 {
     "platforms": {},
-    "plugins": {},
+    "plugins": {
+        "@react-native-community/cli-platform-ios": "source:rnv",
+        "@react-native-community/cli": "source:rnv",
+        "react-native-tvos": "source:rnv",
+        "react-native-web": "source:rnv",
+        "next": "source:rnv",
+        "react-native-theoplayer": {
+            "version": "3.0.2",
+            "ios": {
+                "podName": "react-native-theoplayer",
+                "plist": {
+                    "UIBackgroundModes": ["audio"]
+                }
+            },
+            "tvos": {
+                "podName": "react-native-theoplayer"
+            },
+            "android": {
+                "package": "com.theoplayer.ReactTHEOplayerPackage"
+            },
+            "androidtv": {
+                "package": "com.theoplayer.ReactTHEOplayerPackage"
+            },
+            "firetv": {
+                "package": "com.theoplayer.ReactTHEOplayerPackage"
+            },
+            "androidwear": {
+                "package": "com.theoplayer.ReactTHEOplayerPackage"
+            },
+            "webpack": {
+                "modulePaths": true,
+                "moduleAliases": true
+            }
+        }
+    },
     "extendsTemplate": "@rnv/template-starter/renative.json",
     "projectName": "theotest",
     "workspaceID": "rnv",
@@ -35,6 +69,5 @@
         }
     },
     "currentTemplate": "@rnv/template-starter",
-    "isNew": true,
     "isMonorepo": false
 }
